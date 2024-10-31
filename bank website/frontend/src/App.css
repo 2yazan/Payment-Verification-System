@@ -1,0 +1,162 @@
+:root {
+  --primary: #202020;
+  --secondary: #ffd100;
+  --white: #fff;
+}
+
+.custom-bg-color {
+  background-color: var(--primary);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Bootstrap form style */
+
+.form-inline {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.input-group {
+  width: 90% !important;
+}
+
+.form-control {
+  width: 80% !important;
+}
+
+span.input-group-addon {
+  width: 50px !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.form-input {
+  padding: 10px;
+  margin-top: 5px; /* Add some margin to the top of the input fields */
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%; /* Ensure the input fields take full width */
+}
+
+.form-button {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-button {
+  padding: 7px;
+  border-radius: 12px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the input fields horizontally */
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.main-content {
+  margin-top: 60px; /* Adjust this value to increase or decrease the space */
+}
+
+/* Home button styles */
+.home-button {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px; /* Add space between buttons */
+}
+
+.logout-button {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px; /* Add space below the balance text */
+}
+
